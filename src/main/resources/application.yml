@@ -22,4 +22,6 @@ spring:
       server:
         git:
           uri: https://gitlab.com/love5757/guide-config.git
+          username:
+          password:
   profiles: prod
