@@ -3,8 +3,6 @@ sudo: false
 jdk:
  - oraclejdk8
 
-before_install:
- - chmod +x mvn
 
 script:
     - mvn clean cobertura:cobertura
