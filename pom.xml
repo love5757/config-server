@@ -36,11 +36,6 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-
-		<dependency>
-			<groupId>org.apache.maven.plugins</groupId>
-			<artifactId>maven-complier-plugin</artifactId>
-		</dependency>
 	</dependencies>
 
 	<dependencyManagement>
@@ -74,14 +69,6 @@
 						<format>xml</format>
 					</formats>
 					<check />
-				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-complier-plugin</artifactId>
-				<configuration>
-					<source>1.8</source>
-					<target>1.7</target>
 				</configuration>
 			</plugin>
 		</plugins>
